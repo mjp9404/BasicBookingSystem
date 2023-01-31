@@ -1,5 +1,5 @@
-Project Title: Mini Library Menu
-Authors: Jonathan Ryan Muriel, Minjong Park and Majd Alshahaf
+Project Title: Library System
+
 What does the program do? 
 
 The program loads the text file that contains the list of the books. It goes through a loop and assign it in an array list called books checking the isbn number and assigns a book type. Then the method display menu will be called to show the options the user has. The first method allows the users to checkout a book by entering the isbn number. The for loop checks the array list it there is a matching isbn number. If it matches, the output will show that the book has been checked out and decrements the total. If the total is zero, it will say book is not available. If it does not find an isbn number matching the user's input, it wil say invalid isbn number. The second method allows users to search for a book by entering the title, or just part of it. The loop checks the array list if there is a matching title from the user input. If it has a match, it will print out the result/s. If not, it will say invalid input. The third method lets the user to search books by their types. It will ask for a user to input a number according to the book type of their choice. The switch statement each has for loop to check the array list and look over the format from the array list. If it matches with the user's input, it will print out the results it finds. The fourth method generates random book/books according to the user's input. The last method overwrites the old text file depending on the changes made. 
